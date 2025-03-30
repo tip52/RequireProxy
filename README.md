@@ -1,3 +1,7 @@
+A tool that allows scripts that get "Cannot require RobloxScript from Non-RobloxScript Instance" to require via a level 2 script that returns the result.
+This tool also allows for functions to be called.
+Its a "proxy" between level 2 and level 3, and it uses bindable events to communicate.
+
 NOTE: THIS IS READ ONLY AS I DIDNT GET AROUND TO ADDING WRITE CAPABILITY TO THIS
 -> (you can call functions tho)
 -> this is due to how the table reconstruction works and shit across lua vms which is really gay
@@ -10,6 +14,3 @@ you can call the functions from the table and get their results.
 -> does work on nested tables
 
 this code is very bug prone and I suggest you test it in a roblox game if you want to modify it
-
-
-tested mainly on solara and xeno
